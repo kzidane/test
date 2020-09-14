@@ -1,3 +1,6 @@
-check50:
+lab50:
   files:
+  - !exclude "*"
   - !include foo.c
+submit50:
+  files: test
