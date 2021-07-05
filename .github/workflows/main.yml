@@ -3,5 +3,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v2
     - run: git config --get-all credential.helper
     - run: git clone git@github.com:cs50/x.git
