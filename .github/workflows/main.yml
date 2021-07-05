@@ -1,0 +1,7 @@
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - run: git config --get-all credential.helper
+    - run: git clone git@github.com:cs50/x.git
