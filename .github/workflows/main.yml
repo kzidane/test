@@ -13,4 +13,4 @@ jobs:
         render50 -h
         touch foo.c && render50 -o foo.pdf foo.c && test -f foo.pdf
     - name: Release
-        uses: softprops/action-gh-release@v1
+      uses: softprops/action-gh-release@v1
