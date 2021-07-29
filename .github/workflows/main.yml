@@ -14,3 +14,4 @@ jobs:
         touch foo.c && render50 -o foo.pdf foo.c && test -f foo.pdf
     - name: Release
       uses: softprops/action-gh-release@v1
+      target_commitish: ${{ github.sha }}
