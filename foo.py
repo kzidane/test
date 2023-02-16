@@ -1,8 +1,2 @@
-def foo():
-    print('foo')
-
-def bar(n):
-    print(n)
-    foo()
-
-bar(28)
+print('{"foo": "bar", "baz": 42}' * 68000) 
+assert(False)
