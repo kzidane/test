@@ -1,2 +1,4 @@
-print('{"foo": "bar", "baz": 42}' * 68000) 
-assert(False)
+# Databricks notebook source
+
+dbutils.widgets.text('x', '1')
+print(dbutils.widgets.get('x'))
