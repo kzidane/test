@@ -1,4 +1,4 @@
 # Databricks notebook source
-%run ./foo
+%run ./foo $catalog=$catalog
 
 # COMMAND ----------
